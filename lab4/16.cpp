@@ -1,3 +1,9 @@
+/*
+The secondary diagonal of a matrix consists of those elements that lie on the diagonal that runs from top
+right to bottom left.
+Return the sum of elements that lie on it.
+*/
+
 #include <iostream>
 using namespace std;
 int main(){

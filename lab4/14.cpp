@@ -1,3 +1,9 @@
+/*
+A prime number (or a prime) is a natural number greater than 1 that cannot be formed by multiplying
+two smaller natural numbers.
+Find all prime numbers from 2 to n using a nested for loop.
+*/
+
 #include <iostream>
 #include <cmath>
 using namespace std;
