@@ -1,29 +1,20 @@
 #include <iostream>
+
 using namespace std;
 
-int SumOfDigits(string s , int res){
-
-if (int(s)==48) return res;
-return SumOfDigits()
+int check(string s, int i, int ans){
+    if(i == s.size()) 
+    return ans;
+    ans += s[i] - '0';
+    return check(s, i + 1, ans);
 
 }
- int getSum(int n) 
-{  
-   int sum = 0; 
-   while (n != 0) 
-   { 
-       sum = sum + n % 10; 
-       n = n/10; 
-   } 
-   return sum; 
-} 
 
-int main(){
+int main () {
+    string s;
+    cin >> s;
 
-    string x;
-    cin >> x ;
-    cout << SumOfDigits(x , 1) ;
-
-    return 0 ;
-
+    cout << check(s, 0, 0);
+    cout << endl;
+    return 0;
 }

@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-bool uni(int a){
-    if (a<2) return false;
-    if (a==2) return true;
-    return  ;
+bool uni (int n){
+    if(n==1)return true;
+    if (n % 2 != 0)return false;
+    return uni(n/2) ;
 }
 
 int main(){

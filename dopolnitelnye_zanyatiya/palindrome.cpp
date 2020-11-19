@@ -8,7 +8,7 @@ bool isPalindrome(string s , int i , int j)
 	if (s.length() == 0 || s.length() == 1)
 		return true ;
 
-	if (s[i] == s[])
+	if (s[i] == s[j])
 	    return true;
 		else return false ;
 		

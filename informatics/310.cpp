@@ -6,7 +6,7 @@ void  prime(long n){
     
     bool res=false ;
 
-    for(long i=2 ; i<= n/2 ; i++) 
+    for(long i=2 ; i<= sqrt(n) ; i++) 
     if( (n%i)==0) res = true ;
     
     if (res==true || n==1) cout << "composite";
@@ -20,4 +20,4 @@ int main() {
     prime(x) ;
 
 return 0;
-};
+}
