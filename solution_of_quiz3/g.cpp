@@ -16,7 +16,7 @@ bool isPrime(int number)
 void printPrimeFactors(int n)
 {
 	if (n == 1)
-		return;
+		return ;
 
 	if (isPrime(n))
 		cout << n << " ";
