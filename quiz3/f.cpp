@@ -13,7 +13,7 @@ void Ayazhans_function(){
         aya = aya/2;  
     }  
 
-    for(int i = 3; i <= sqrt(aya); i = i + 2){  
+    for(int i = 2; i <= sqrt(aya) ; i = i + 2){  
         while(aya % i == 0){  
             cout << i << " " ;  
             aya = aya/i ;  
