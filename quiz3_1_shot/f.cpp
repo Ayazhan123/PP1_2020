@@ -5,24 +5,23 @@ using namespace std;
   
 void Ayazhans_function(){  
 
-    int aya ;
-    cin >> aya ;
+    int a ;
+    cin >> a ;
 
-    while(aya % 2 == 0){  
+    while(a % 2 == 0){  
         cout << 2 << " " ;  
-        aya = aya/2;  
+        a = a/2;  
     }  
 
-    for(int i = 2; i <= sqrt(aya) ; i = i + 2){  
-        while(aya % i == 0){  
+    for(int i = 3; i <= sqrt(a) ; i = i + 2){  
+        while(a % i == 0){  
             cout << i << " " ;  
-            aya = aya/i ;  
+            a = a/i ;  
         }  
-    }
-
-    if(aya > 2){
-        cout << aya << " ";
-    }     
+    }   
+     if(a > 2){
+        cout << a << " ";
+    }    
 }   
 int main(){  
    
@@ -30,3 +29,5 @@ int main(){
 
     return 0;
 }
+
+
