@@ -18,7 +18,7 @@ int main() {
 }
 */
 //Второй способ 
-/*
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -43,9 +43,9 @@ int main() {
     }
   }
 }
-*/
+
 //третий способ
-#include <bits/stdc++.h>
+/*#include <bits/stdc++.h>
 using namespace std;
 
 void f(int n){
@@ -68,3 +68,4 @@ int main(){
     cin >> n;
     f(n);
 }
+*/
