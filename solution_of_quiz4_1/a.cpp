@@ -1,5 +1,5 @@
 //Первый способ
-/*
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -16,9 +16,9 @@ int main() {
       cnt[make_pair(x,y)]++;
     }
 }
-*/
-//Второй способ 
 
+//Второй способ 
+/*
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -43,7 +43,7 @@ int main() {
     }
   }
 }
-
+*/
 //третий способ
 /*#include <bits/stdc++.h>
 using namespace std;
