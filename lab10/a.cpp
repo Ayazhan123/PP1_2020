@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#define pb push_back
 
 using namespace std;
 
@@ -15,7 +16,7 @@ for(int i=0 ; i<n ; i++){
     int b;
     cin >> a >> b ;
     v1.push_back(a);
-    v2.push_back(b);
+    v2.pb(b);
 }
 sort(v1.begin() , v1.end());
 sort(v2.begin() , v2.end());
