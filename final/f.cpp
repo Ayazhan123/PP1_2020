@@ -2,15 +2,15 @@
 
 using namespace std;
 
-int func_dig(int a){
+int func_dig(int a){ //754
     int x = 0;
     int y = 0;
 
     while(a != 0){  
-        x = 10*x ; 
-        y = a%10 ; 
-        x = x+y ;  
-        a /= 10;  
+        x = 10*x ; //0
+        y = a%10 ;//4 
+        x = x+y ; //4 
+        a /= 10;  //75
     }
  return x;
 }

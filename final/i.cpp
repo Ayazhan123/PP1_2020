@@ -1,3 +1,4 @@
+//не вышло
 #include <iostream>
 #include <string>
 #include <iterator>
