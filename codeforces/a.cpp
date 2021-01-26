@@ -1,3 +1,5 @@
+//здача "слишком длинные слова"
+
 #include <iostream>
 #include <string>
 
